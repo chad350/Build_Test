@@ -12,4 +12,9 @@ public class UIButtonManager : MonoBehaviour
     {
         targetImg.color = Color.blue;
     }
+    
+    public void Click_GreenButton()
+    {
+        targetImg.color = Color.green;
+    }
 }
